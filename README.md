@@ -32,9 +32,8 @@ Ensure you have the following installed:
 
 1. *Bitcoin Core* (bitcoind & bitcoin-cli): [Download Bitcoin Core](https://bitcoincore.org/en/download/)
 2. *Python3* (if not installed, install via sudo apt install python3 or brew install python3)
-3. *Required Python Libraries*
-   sh
-   pip install python-bitcoinrpc
+3. *Required Python Libraries*<br>
+   <strong>pip install python-bitcoinrpc</strong>
    
 
 ### Configure Bitcoin Core
@@ -50,8 +49,8 @@ Ensure you have the following installed:
    txindex=1<br>
    
 3. Start bitcoind in regtest mode:
-   sh
-   bitcoind -regtest -daemon
+   
+  <strong> bitcoind -regtest -daemon</strong>
    
 
 ---
@@ -60,28 +59,27 @@ Ensure you have the following installed:
 
 ### Step 1: Start Bitcoin Daemon
 
-sh
-bitcoind -regtest -daemon
+
+<strong>bitcoind -regtest -daemon</strong>
 
 
 ### Step 2: Run the Legacy Transaction Script
 
-sh
-python legacy_transactions.py
 
+<strong>python legacy_transactions.py</strong>
 
 This will:
 
-- Create a wallet
-- Generate addresses A, B, C
-- Fund address A
-- Create a transaction from A → B
-- Create a transaction from B → C
-- Decode and analyze transactions
+- Create a wallet<br>
+- Generate addresses A, B, C<br>
+- Fund address A<br>
+- Create a transaction from A → B<br>
+- Create a transaction from B → C<br>
+- Decode and analyze transactions<br>
 
 ### Step 3: Run the SegWit Transaction Script
 
-sh
+
 python segwit_transactions.py
 
 
@@ -89,8 +87,8 @@ This follows the same process as above but using P2SH-SegWit addresses.
 
 ### Step 4: Analyze Transactions
 
-- Check decoded transactions in the output.
-- Use Bitcoin Debugger to verify script execution.
+- Check decoded transactions in the output.<br>
+- Use Bitcoin Debugger to verify script execution.<br>
 
 ---
 
