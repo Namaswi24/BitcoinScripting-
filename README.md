@@ -6,9 +6,9 @@
 
 ## Team Members:
 
-- **Name 1** (Roll Number 1)
-- **Name 2** (Roll Number 2)
-- **Name 3** (Roll Number 3)
+- **Janapareddy Vidya Varshini** - 230041013
+- **Korubilli Vaishnavi** - 230041016
+- **Mullapudi Namaswi** - 230041023
 
 ## Project Overview
 
@@ -107,10 +107,4 @@ Upon running the scripts, you should see:
 
 ---
 
-## Submission Details
-
-- **GitHub Repository:** [Your Repo Link]
-- **Report:** Attached in the repository with screenshots and analysis.
-
-For any issues, refer to [Bitcoin Command Line Guide](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/18_0_Talking_to_Bitcoind_Other.md).
 
