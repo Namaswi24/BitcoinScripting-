@@ -41,13 +41,13 @@ Ensure you have the following installed:
 
 1. Locate the bitcoin.conf file (usually found in ~/.bitcoin/bitcoin.conf on Linux/macOS or C:\Users\YourUser\AppData\Roaming\Bitcoin\bitcoin.conf on Windows).
 2. Add the following configuration for regtest mode:
-   ini
-   regtest=1
-   server=1
-   rpcuser=your_rpc_user
-   rpcpassword=your_rpc_password
-   rpcport=18443
-   txindex=1
+   ini<br>
+   regtest=1<br>
+   server=1<br>
+   rpcuser=your_rpc_user<br>
+   rpcpassword=your_rpc_password<br>
+   rpcport=18443<br>
+   txindex=1<br>
    
 3. Start bitcoind in regtest mode:
    sh
