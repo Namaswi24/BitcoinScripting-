@@ -1,4 +1,4 @@
-# Bitcoin Scripting Assignment
+# Bitcoin Scripting 
 
 ## Team Name: CryptoKnights
 
