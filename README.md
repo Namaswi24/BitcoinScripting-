@@ -40,7 +40,7 @@ Ensure you have the following installed:
 ### Configure Bitcoin Core
 
 1. Locate the bitcoin.conf file (usually found in ~/.bitcoin/bitcoin.conf on Linux/macOS or C:\Users\YourUser\AppData\Roaming\Bitcoin\bitcoin.conf on Windows).
-2. Add the following configuration for regtest mode:
+2. Add the following configuration for regtest mode:<br>
    ini<br>
    regtest=1<br>
    server=1<br>
