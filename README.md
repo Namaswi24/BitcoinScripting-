@@ -1,10 +1,8 @@
 # Bitcoin Scripting Assignment
 
-## CS 216: Introduction to Blockchain
+## Team Name: CryptoKnights
 
-### Assignment 3: Bitcoin Scripting    
-
-## Team Members:
+### Team Members:
 
 - **Janapareddy Vidya Varshini** - 230041013
 - **Korubilli Vaishnavi** - 230041016
